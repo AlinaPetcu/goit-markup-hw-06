@@ -203,7 +203,6 @@ form{
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
-    line-height: 116.667%;
     letter-spacing: 0.48px;
     display: block;
     margin-bottom: 4px;
@@ -219,7 +218,6 @@ form{
         font-size: 12px;
         font-weight: 400;
         line-height: 1.17;
-        line-height: 116.667%;
         letter-spacing: 0.04em;
         display: block;
         margin-bottom: 4px;
@@ -250,6 +248,7 @@ form{
 .checkbox-container{
     display: flex;
     gap: 8px;
+    margin-bottom: 24px;
 }
 
 .privacy_policy_link{
@@ -272,6 +271,7 @@ textarea{
 .modal-field-container{
     position: relative;
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .input-container{
