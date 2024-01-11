@@ -84,7 +84,7 @@ svg {
     top: 0; 
     left: 0;
     padding-top: 80px;
-    padding: 72px 24px 24px 24px;
+    
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2,1);
 }
 
@@ -99,6 +99,7 @@ svg {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .modal-close {
@@ -170,17 +171,6 @@ form{
    
 }
 
-
-
-.form-label:hover + .svg-field{
-    border: 1px solid var(--IRIS, #4D5AE5);
-    fill: var(--iris);
-    
-}
-
-
-
-
 .input-footer{
     width: 264px;
     height: 40px;
@@ -202,6 +192,9 @@ form{
             border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
             transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
             padding-left: 38px;
+            background-color: transparent;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
 
 
@@ -209,8 +202,11 @@ form{
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     font-weight: 400;
+    line-height: 1.17;
     line-height: 116.667%;
     letter-spacing: 0.48px;
+    display: block;
+    margin-bottom: 4px;
 }
 
 
@@ -241,20 +237,29 @@ textarea{
     margin-bottom: 8px;
 }
 
+.input-container{
+ position: relative;
+}
 .svg-field{
    position: absolute;
-   top: 28px;
+   top: 50%;
    left: 16px;
    fill: var(--navy-blue);
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transform: translateY(-50%);
 }
 
 .svg-checkbox{
     top: 8px;
 }
 
-.inp:focus + .form-label .modal-field{
-    outline: 2px solid #404BBF;
+.inp:focus{
+    border-color: #4D5AE5;
+    
+}
+
+.svg-field:focus{
+fill: #4D5AE5;
 }
 
 .container {
