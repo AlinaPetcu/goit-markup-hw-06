@@ -972,6 +972,7 @@ transform: translateY(0%);
     position:absolute;
     top: 10px;
     left: 110px;
+    margin-left: 16px;
 }
 
 .svg {
