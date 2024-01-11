@@ -25,6 +25,14 @@ h2 {
     margin: 0;
 }
 
+form{
+    margin:0; 
+}
+
+label{
+    margin:0;
+}
+
 p {
     margin: 0;
 }
@@ -166,7 +174,6 @@ form{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    margin: 34px 24px 136px 24px;
 
    
 }
@@ -946,6 +953,13 @@ transform: translateY(0%);
     margin-right: 120px;
 }
 
+.container-subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 16px;
+}
+
 .subscribe-input{
     display: flex;
     flex-direction: column;
@@ -954,6 +968,7 @@ transform: translateY(0%);
 .form-subscribe{
     position:relative;
     display: flex;
+    flex-direction: row;
     gap: 24px;
     align-items:end;
 }
@@ -970,7 +985,6 @@ transform: translateY(0%);
     line-height: 150%;
     letter-spacing: 0.64px;
     display: flex;
-    padding: 8px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -978,6 +992,7 @@ transform: translateY(0%);
     cursor: pointer;
     border: none;
     background-color: #4D5AE5;
+    position:relative;
 
 
 }
@@ -1015,8 +1030,7 @@ transform: translateY(0%);
 }
 .subscribe-svg{
     position:absolute;
-    top: 10px;
-    left: 110px;
+   right:16px;
     margin-left: 16px;
 }
 
