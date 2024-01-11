@@ -924,7 +924,7 @@ transform: translateY(0%);
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.64px;
-    display: inline-flex;
+    display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
