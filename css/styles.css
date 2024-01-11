@@ -913,15 +913,11 @@ transform: translateY(0%);
     align-items:end;
 }
 
+
 .subscribe-button{
-    
-        background: var(--iris, #4D5AE5);
+    background: var(--iris, #4D5AE5);
         min-width: 165px;
         height: 40px;
-}
-
-
-.subscribe{
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 16px;
@@ -941,16 +937,7 @@ transform: translateY(0%);
 
 }
 
-.subscribe-button{
-    display: inline-flex;
-        padding: 8px 24px;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        border-radius: 4px;
-            background: var(--IRIS, #4D5AE5);
-            align-items: baseline;
-}
+
 
 .input-subscribe{
     display: inline-flex;
@@ -975,9 +962,7 @@ transform: translateY(0%);
 
 .placeholder{color: #ffffff}
 
-.subscribe_button{
-        position:relative;
-}
+
 
 .subscribe-area{
     display: flex;
