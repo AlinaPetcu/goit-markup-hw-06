@@ -505,28 +505,28 @@
           <div class="modal-field-container">
             <label class="modal-field" for="user-comment">Comment</label
             ><textarea
-              class="modal-field"
+              class="comment-field"
               id="user-comment"
               name="comment"
               rows="5"
-              placeholder="  Text input"
+              placeholder="Text input"
             ></textarea>
           </div>
           <div class="checkbox-container">
             <input
-              class="inp is-hidden"
-              id="user_privacy"
+              class="inp visually-hidden"
+              id="user-privacy"
               type="checkbox"
-              name="privacy-policy"
-              value="privacy_policy"
+              name="user-privacy"
+              value="true"
             />
+            <label class="form-label modal-field" for="user-privacy"
+              >I accept the terms and conditions of the
+            </label>
             <svg width="16" height="16" class="svg-checkbox">
               <use href="./images/icons.svg#property-click"></use>
             </svg>
             <div>
-              <label class="form-label modal-field" for="user_privacy"
-                >I accept the terms and conditions of the</label
-              >
               <a class="privacy_policy_link" href="">Privacy Policy</a>
             </div>
           </div>
