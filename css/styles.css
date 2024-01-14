@@ -219,7 +219,7 @@ form{
     display: block;
 }
 .comment-field{
-    width:100%;
+    width: 360px;
     height: 120px;
     color: var(--LIGHT-SLATE, #8E8F99);
         font-size: 12px;
@@ -279,9 +279,6 @@ form{
 }
 
 textarea{
-    resize: horizontal;
-    width: 360px;
-    height: 120px;
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
@@ -312,22 +309,25 @@ margin-bottom: 16px;
     top: 8px;
 }
 
-#user-name:focus{
-   
+.inp:focus{
     border-color: #4D5AE5;
-   
 }
-#user-phone:focus {
 
-    border-color: #4D5AE5;
-
+#user-name:focus +.svg-field{
+    fill: #4D5AE5;
 }
-#user-email:focus {
 
-    border-color: #4D5AE5;
+#user-phone:focus +.svg-field{
+
+    fill: #4D5AE5;
 
 }
 
+#user-email:focus +.svg-field{
+
+    fill: #4D5AE5;
+
+}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -1007,7 +1007,6 @@ transform: translateY(0%);
     line-height: 150%;
     letter-spacing: 0.64px;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 4px;
@@ -1015,8 +1014,7 @@ transform: translateY(0%);
     border: none;
     background-color: #4D5AE5;
     position:relative;
-
-
+    padding: 8px 24px 8px 24px;
 }
 
 
@@ -1052,7 +1050,7 @@ transform: translateY(0%);
 }
 .subscribe-svg{
     position:absolute;
-   right:16px;
+    right:24px;
     margin-left: 16px;
 }
 
