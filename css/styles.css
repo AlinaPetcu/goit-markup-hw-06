@@ -885,7 +885,7 @@ transform: translateY(0%);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 100px 1000px;
+    padding: 100px 100px;
     gap: 1px;
    
 
@@ -963,17 +963,15 @@ transform: translateY(0%);
 }
 
 .footer-side {
-    margin-right: 120px;
+    margin-right: 1px;
 }
 
 .footer-social-side {
-    margin: 0 auto;
+    margin: 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 120px;
-    margin-right: 120px;
 }
 
 .container-subscribe{
